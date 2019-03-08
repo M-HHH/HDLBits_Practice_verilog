@@ -1,3 +1,9 @@
+//Combinational circuits must have a value assigned to all outputs under all conditions. 
+//This usually means you always need else clauses or a default value assigned to the outputs.
+//组合电路必须在所有条件下为所有输出赋值。
+//这通常意味着您总是需要else子句或分配给输出的默认值。
+
+
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input      cpu_overheated,
@@ -24,5 +30,3 @@ module top_module (
 endmodule
 
 
-//Combinational circuits must have a value assigned to all outputs under all conditions. 
-//This usually means you always need else clauses or a default value assigned to the outputs.
