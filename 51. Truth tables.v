@@ -1,6 +1,8 @@
 //**根据真值表编写电路的verilog程序**
 //**case () .... endcase**
 
+//此代码应有更简便的方法，希望可以提交commit或issue
+
 module top_module
 (
 	input x3,
