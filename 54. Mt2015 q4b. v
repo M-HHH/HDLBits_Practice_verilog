@@ -1,0 +1,7 @@
+//**同或门 ^~ **
+//**异或门 ^ **
+
+
+module top_module ( input x, input y, output z );
+ assign z = x ^~ y;
+endmodule
