@@ -12,8 +12,8 @@ module top_module(
 		
 		assign out = 1 & 0 & 1;
 
-    //assign out_both[2:0]      = {{1 & in[3] & in[2]}, {1 & in[2] & in[1]}, {1 & in[1] & in[0]}}; 连接符内要指定位宽
-    assign out_both[2:0]      = {{1'b1 & in[3] & in[2]}, {1'b1 & in[2] & in[1]}, {1'b1 & in[1] & in[0]}};
+    //assign out_both[2:0]      = {{in[3] & in[2]}, {in[2] & in[1]}, {in[1] & in[0]}}; 连接符内要指定位宽
+    assign out_both[2:0]      = {{in[3] & in[2]}, {& in[2] & in[1]}, {in[1] & in[0]}};
     assign out_any		 = {{in[3] | in[2]} , {in[2] | in[1]} , {in[1] | in[0]}};
     assign out_different = {{in[0] ^ in[3]}, {in[3] ^ in[2]}, {in[2] ^ in[1]}, {in[1] ^ in[0]}};
 
