@@ -1,2 +1,2 @@
 # HDLBits_Practice_verilog
-This is a practice of verilog coding 
+This is a practicing of verilog coding 
