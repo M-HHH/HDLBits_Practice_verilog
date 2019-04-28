@@ -47,6 +47,6 @@ module top_module(clk, reset, in, out);
 endmodule
 
 
-But in this code, its doesn't take advantage of the recommended scheme.
-So if you have a better way to solve this problem, please pull a request so I can merge it.
-THX
+//But in this code, its doesn't take advantage of the recommended scheme.
+//So if you have a better way to solve this problem, please pull a request so I can merge it.
+//THX
