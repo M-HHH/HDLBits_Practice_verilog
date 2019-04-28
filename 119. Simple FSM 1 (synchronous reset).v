@@ -45,3 +45,8 @@ module top_module(clk, reset, in, out);
     assign out = (present_state == state_b[1:0]);
 
 endmodule
+
+
+But in this code, its doesn't take advantage of the recommended scheme.
+So if you have a better way to solve this problem, please pull a request so I can merge it.
+THX
